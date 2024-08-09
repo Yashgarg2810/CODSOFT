@@ -1,287 +1,63 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-
-#header {
-    height: 100px;
-    background-color: #B7B5B3;
-    position: relative;
-}
-
-.container {
-    display: flex;   
-    position: absolute;
-    top: 30px;
-    padding-left: 30px;;
-}
-
-#logo {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-image: url(logo.jpg);
-    background-size: cover;
-    
-}
-
-#name {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    padding-left: 15px;
-    cursor: pointer;   
-}
-
- /* 2nd part */
-
-.main {
-    height: 180rem;
-    background-color: #B7B5B3;
-}
-
-.box {
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-
-.box2 {
-    width: 70rem;
-    height: 30rem;
-    margin-left: 10rem;
-    margin-top: 10rem;
-    border-bottom: 1px solid black; /* This creates a bottom border */
-    padding-bottom: 10px; /* Optional: Adds padding below the content */
-    margin-bottom: 20px; /*Optional: Adds margin below the content */
-    
-}
-
-.photo {
-    height: 480px;
-    width: 480px;
-    margin-top: -25px;
-    background-image: url(IMG_20240324_102758_2-removebg-preview.png);
-    background-size: cover;
-    border-radius: 50%;
-    filter: drop-shadow(0 0 7px rgb(98, 69, 2));
-
-}
-.hello {
-    font-size: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    left: 43rem; 
-    top: 15rem; 
-}
-
-p {
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
-}
-
-pre {
-    font-size: 16px;
-    font-family:Helvetica;  
-}
-
-.about {
-    margin-left: 33rem;
-    position: absolute;
-    bottom: 11rem;
-    right: 2rem;
-}
-
-/* 3rd part */
-
-.outerbox {
-    border-bottom: 1px solid black; /* This creates a bottom border */
-    padding-bottom: 10px; /* Optional: Adds padding below the content */
-    margin-bottom: 20px; /*Optional: Adds margin below the content */
-    margin-left: 8.5rem;
-    margin-right: 5.5rem;
-}
-
-.innerbox {
-    height: 10rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#degree {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    line-height: 2;
-}
-
-.innerbox2 {
-    margin-left: 27rem;
-    margin-top: 3rem;
-    line-height: 1.5;
-}
-
-
-#p12th {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
-
-#p10th {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
-
-/* 4th part */
-
-.S-outerbox {
-    border-bottom: 1px solid black; /* This creates a bottom border */
-    padding-bottom: 10px; /* Optional: Adds padding below the content */
-    margin-bottom: 20px; /*Optional: Adds margin below the content */
-    margin-left: 8.5rem;
-    margin-right: 5.5rem;
-}
-
-.S-innerbox {
-    height: 10rem;
-    display: flex;
-    margin-left: 8.4rem;
-}
-
-#SL {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    line-height: 2;
-    margin-left: 12rem;
-}
-
-/* 5th part */
-
-#P {
-    margin-left: 16rem;
-}
-
-#title1 {
-    margin-left: 16rem;
-    margin-top: 5rem;
-}
-
-#P1 {
-    margin-left: 16rem;
-    line-height: 2;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-#para1 {
-    display: flex;
-}
-
-#image1 {
-    height: 20rem;
-    width: 30rem;
-    background-image: url(image1.jpeg);
-    margin-left: 5rem;
-}
-
-/* 5.2 part */
-
-#title2 {
-    margin-left: 16rem;
-    margin-top: 5rem;
-}
-
-#P2 {
-    margin-left: 16rem;
-    line-height: 2;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    
-}
-
-#para2 {
-    display: flex;
-}
-
-#image2 {
-    height: 20rem;
-    width: 20rem;
-    background-image: url(image2.jpeg);
-    background-size: cover;
-    margin-left: 9rem;
-}
-
-/* 5.3 part */
-
-#title3 {
-    margin-left: 16rem;
-    margin-top: 5rem;
-}
-
-#P3 {
-    margin-left: 16rem;
-    line-height: 2;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    
-}
-
-#para3 {
-    display: flex;
-}
-
-#image3 {
-    height: 20rem;
-    width: 20rem;
-    background-image: url(image3.jpeg);
-    background-size: cover;
-    margin-left: 5rem;
-}
-
-/* 6th part */
-
-#text {
-    display: block;
-    font-size: 20px;
-}
-
-#resumeOuterbox {
-    border-bottom: 1px solid black; /* This creates a bottom border */
-    padding-bottom: 10px; /* Optional: Adds padding below the content */
-    margin-bottom: 20px; /*Optional: Adds margin below the content */
-    margin-left: 8.5rem;
-    margin-right: 5.5rem;
-}
-
-#resume {
-    margin-top: 3rem;
-    margin-left: 15rem
-}
-
-button {
-    margin-left:9rem;
-    margin-top:3rem;
-    font-size: 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+    box-sizing: border-box;
+    font-family: sans-serif;
     font-weight: bold;
-    border-radius: 5px;
-    
 }
 
-/* 7th part */
-
-.footer {
-    height: 10rem;
-    background-color: #B7B5B3;
-}
-
-#F-outerbox {
+body {
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    background: url(image1.jpeg);
+    background-size: cover;
 }
+.calculator {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    background-color: rgb(43, 186, 219);
+    box-shadow: 10px -5px 10px 0px #73D668;
+}
+input {
+    width: 330px;
+    padding:24px;
+    margin: 10px;
+    /* background: rgba(255,255,255,0.3); */
+    /* box-shadow: inset 0px 0px 8px rgba(0,0,0,0.4); */
+    font-size: 65px;
+    text-align: right;
+    color: black;
+    border: 2px solid black;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: #fff;
+    background: rgba(0,0,0,0.7);;
+    border: black;
+    border-radius: 25%;
+    font-size: 24px;
+    cursor: pointer;
 
-#FooterPre {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ac,del {
+    font-size: 20px;
+}
+button:hover {
+    color: #fff;
+    background-color: #f67c14;
+}
+.equalBtn {
+    background-color: #f67c14;
+}
+.operator{
+    color: #f67c14;
 }

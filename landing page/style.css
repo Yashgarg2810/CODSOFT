@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* part-1 */
+
+.box{
+    height: 45rem;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url('hero.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 20rem;
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.first {
+    height: 100px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hi {
+    font-size:50px;
+    color: #fff;
+}
+
+#name {
+    font-size:30px;
+    color: #fff;
+}
+
+.second {
+    height: 100px;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+/* part-2 */
+
+.box2 {
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: black;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+
+#text1{
+    margin-top: 60px;
+    font-size: 80px;
+}
+#text2 {
+    margin-top: 60px;
+    font-size: 120px;
+}
+
+/* part-3 */
+
+/* box=>1 */
+
+.box3 {
+    height: 480px;
+}
+.ineerbox {
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.ineerbox1{
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px 6px 0px grey;
+    margin-top: 40px;
+    border-radius: 8%;
+}
+
+#boximage1 {
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-image: url('image1.jfif');
+    background-size: cover;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left:5px;
+}
+pre {
+    margin-top: 20px;
+    margin-left:5px;
+}
+
+/* box=>2 */
+
+.ineerbox2{
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px 6px 0px grey;
+    margin-top: 40px;
+    border-radius: 8%;
+}
+
+#boximage2 {
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-image: url('image2.jfif');
+    background-size: cover;
+}
+
+/* box=>3 */
+.ineerbox3{
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px 6px 0px grey;
+    margin-top: 40px;
+    border-radius: 8%;
+}
+
+#boximage3 {
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-image: url('image3.jfif');
+    background-size: cover;
+}
+
+/* part-4 */
+
+.footer1 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.contactsection {
+    height: 150px;
+    width: 50%;
+    background-color: rgb(0, 155, 0);
+    color:black;
+}
+
+.aboutsection {
+    height: 150px;
+    width: 50%;
+    background-color: rgb(162, 17, 17);
+    color: black;
+}
+
+.Cbox {
+    margin-left: 20px;
+}
+
+.Abox {
+    margin-left: 20px;
+}
+
+/* part-5 */
+
+.footer2 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 8, 8, 0.495);
+}
+
+.textb {
+    width: 250px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
